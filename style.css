@@ -7,7 +7,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80)
+  background: url(./assets/ocean.mp4)
     no-repeat center center/cover;
 }
 video {
