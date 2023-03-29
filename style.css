@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80)
+    no-repeat center center/cover;
+}
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient( rgb(0 0 0 / 65%) , rgba(0, 0, 0, 0.7) );
+    /* background-size: 3px 3px; */
+    z-index: 2;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+}
+p {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: -150px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 800px;
+  width: 100%;
+  height: 50px;
+}
+
